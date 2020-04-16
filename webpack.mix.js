@@ -11,8 +11,5 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.react('resources/js/app.js', 'public/js')
-   .react('resources/js/react/components/QRScan.js','public/js/react')
-   .react('resources/js/react/app.js','public/js/react')
-   .react('resources/js/react/components/Body.js','public/js/react')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.react('resources/assets/js/app.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css');
